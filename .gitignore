@@ -1,0 +1,9 @@
+# Archivos de configuración sensibles
+config/auth.yaml
+
+# Archivos de dependencias
+
+__pycache__
+
+"git/" 
+"git/" 

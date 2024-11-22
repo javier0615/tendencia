@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros Scrapados</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Libros Scrapados</h1>
+    <a href="/" class="back-button">Regresar al inicio</a>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Precio</th>
+                <th>Disponibilidad</th>
+                <th>Calificación</th>
+                <th>Póster</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.price }}</td>
+                <td>{{ book.availability }}</td>
+                <td>{{ book.rating }}</td>
+                <td>
+                    {% if book.image_url %}
+                    <img src="{{ book.image_url }}" alt="{{ book.title }}" width="100">
+                    {% else %}
+                    No disponible
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/">Volver al inicio</a>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

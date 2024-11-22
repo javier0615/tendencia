@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas en Tendencia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <h1>Películas en Tendencia</h1>
+    <a href="/" class="back-button">Regresar al inicio</a>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Fecha de Estreno</th>
+                <th>Descripción</th>
+                <th>Póster</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pelicula in peliculas %}
+            <tr>
+                <td>{{ pelicula.title }}</td>
+                <td>{{ pelicula.release_date }}</td>
+                <td>{{ pelicula.overview }}</td>
+                <td>
+                    {% if pelicula.poster_path %}
+                    <img src="https://image.tmdb.org/t/p/w500/{{ pelicula.poster_path }}" alt="{{ pelicula.title }}" width="100">
+                    {% else %}
+                    No disponible
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

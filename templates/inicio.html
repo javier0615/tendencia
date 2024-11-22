@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Bienvenido a Cine y Letras</h1>
+    
+    <form method="POST">
+        <label>
+            <input type="radio" name="opcion" value="peliculas" required> Películas
+        </label>
+        <label>
+            <input type="radio" name="opcion" value="libros"> Libros
+        </label>
+        <input type="number" name="pagina" placeholder="Número de página" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="logo">
+    <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="Logo">
+</div>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/peliculas">Películas</a></li>
+            <li><a href="/libros">Libros</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

@@ -1,0 +1,423 @@
+{
+    "page": 2,
+    "results": [
+        {
+            "backdrop_path": "/liuBLPXvisMRo5w2JEKHXceWq5u.jpg",
+            "id": 1171640,
+            "title": "GTMAX",
+            "original_title": "GTMAX",
+            "overview": "Cuando una conocida banda de moteros reclutan a su hermano para un robo, una ex campeona de motocross debe enfrentarse a sus miedos m\u00e1s profundos para mantener a su familia a salvo.",
+            "poster_path": "/bx92hl70NUhojjO3eV6LqKllj4L.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                28,
+                80,
+                18
+            ],
+            "popularity": 64.73,
+            "release_date": "2024-11-19",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 12
+        },
+        {
+            "backdrop_path": "/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+            "id": 912649,
+            "title": "Venom: El \u00faltimo baile",
+            "original_title": "Venom: The Last Dance",
+            "overview": "Eddie y Venom est\u00e1n a la fuga. Perseguidos por sus sendos mundos y cada vez m\u00e1s cercados, el d\u00fao se ve abocado a tomar una decisi\u00f3n devastadora que har\u00e1 que caiga el tel\u00f3n sobre el \u00faltimo baile de Venom y Eddie.",
+            "poster_path": "/b0obWWCLRVRqRzlSK1LSGtADkLM.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                878,
+                28,
+                12
+            ],
+            "popularity": 3046.021,
+            "release_date": "2024-10-22",
+            "video": false,
+            "vote_average": 6.487,
+            "vote_count": 807
+        },
+        {
+            "backdrop_path": "/xi1VSt3DtkevUmzCx2mNlCoDe74.jpg",
+            "id": 917496,
+            "title": "Bitelch\u00fas Bitelch\u00fas",
+            "original_title": "Beetlejuice Beetlejuice",
+            "overview": "Tras una inesperada tragedia familiar, tres generaciones de la familia Deetz regresan a Winter River. La vida de Lydia, todav\u00eda atormentada por Bitelch\u00fas, da un vuelco cuando su rebelde hija adolescente, Astrid, descubre la misteriosa maqueta de la ciudad en el desv\u00e1n y el portal al M\u00e1s All\u00e1 se abre accidentalmente. Con los problemas que se avecinan en ambos reinos, es s\u00f3lo cuesti\u00f3n de tiempo que alguien diga el nombre de Bitelch\u00fas tres veces y el travieso demonio regrese para desatar su propio caos.",
+            "poster_path": "/kWJw7dCWHcfMLr0irTHAPIKrJ4I.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35,
+                14,
+                27
+            ],
+            "popularity": 302.852,
+            "release_date": "2024-09-04",
+            "video": false,
+            "vote_average": 7.141,
+            "vote_count": 1845
+        },
+        {
+            "backdrop_path": "/kMZIMqEXO5MFd5Y1Ha2jZZF4pvF.jpg",
+            "id": 882598,
+            "title": "Smile",
+            "original_title": "Smile",
+            "overview": "Tras presenciar un extra\u00f1o y traum\u00e1tico incidente con un paciente, la doctora Rose Cotter comienza a experimentar sucesos aterradores que no puede explicar. A medida que un miedo sobrecogedor comienza a afectar a todos los aspectos de su vida, Rose se ver\u00e1 obligada a afrontar a su problem\u00e1tico pasado para sobrevivir y escapar de su terror\u00edfica nueva realidad.",
+            "poster_path": "/qJO54b6LsBmEkMxdW8ZziL9Mnam.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "popularity": 284.564,
+            "release_date": "2022-09-23",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 3222
+        },
+        {
+            "backdrop_path": "/nA0RDmSDqpN5tLun4sCqdPekObD.jpg",
+            "id": 592831,
+            "title": "Megal\u00f3polis - Una f\u00e1bula",
+            "original_title": "Megalopolis",
+            "overview": "Una f\u00e1bula \u00e9pica romana ambientada en una Am\u00e9rica moderna imaginada. La ciudad de Nueva Roma debe cambiar, lo que provoca un conflicto entre C\u00e9sar Catilina, un genio artista que busca saltar hacia un futuro ut\u00f3pico e idealista, y su opositor, el alcalde Franklyn Cicero, que sigue comprometido con un statu quo regresivo, perpetuando la codicia, los intereses particulares y la guerra partidista. Dividida entre ellos est\u00e1 la socialit\u00e9 Julia Cicero, la hija del alcalde, cuyo amor por C\u00e9sar ha dividido su lealtad, oblig\u00e1ndola a descubrir lo que realmente cree que la humanidad merece.",
+            "poster_path": "/6jW627n4kOQnAZCa24bbOd1S0CF.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                878
+            ],
+            "popularity": 417.552,
+            "release_date": "2024-09-25",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 447
+        },
+        {
+            "backdrop_path": "/r4Xn4eWOyxye8m3dR80I8TPhfE5.jpg",
+            "id": 1326059,
+            "title": "Pimpinero: Sangre y gasolina",
+            "original_title": "Pimpinero: Sangre y gasolina",
+            "overview": "Cuando Juan, un joven contrabandista de gasolina, se ve obligado a trabajar para una misteriosa organizaci\u00f3n en el desierto fronterizo con Colombia y Venezuela, su novia Diana se embarca en un viaje para descubrir los secretos que habitan en esta tierra de nadie.",
+            "poster_path": "/La4Ze6TadzLz2JDYjYko44xb25.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "es",
+            "genre_ids": [
+                28,
+                80,
+                18
+            ],
+            "popularity": 35.158,
+            "release_date": "2024-10-10",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 1
+        },
+        {
+            "backdrop_path": "/tl3WVdgrDQK70tSVHMAd59XxR3j.jpg",
+            "id": 1290287,
+            "title": "Un mu\u00f1eco de nieve para derretirse",
+            "original_title": "Hot Frosty",
+            "overview": "Cuando, por arte de magia, una joven viuda da vida a un apuesto mu\u00f1eco de nieve, redescubre la risa y el amor justo a tiempo para las fiestas... y antes de que se derrita.",
+            "poster_path": "/lRkPjcHcdvkXNQsz2KrgbEzk12Q.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10749,
+                35
+            ],
+            "popularity": 229.343,
+            "release_date": "2024-11-12",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 85
+        },
+        {
+            "backdrop_path": "/uGmYqxh8flqkudioyFtD7IJSHxK.jpg",
+            "id": 889737,
+            "title": "Joker: Folie \u00e0 Deux",
+            "original_title": "Joker: Folie \u00e0 Deux",
+            "overview": "Secuela de \"Joker (2019), de nuevo con Phoenix como Arthur Fleck, y que muestra su relaci\u00f3n con el personaje de Harley Quinn, interpretado por Lady Gaga.",
+            "poster_path": "/tMMYwxrPwVPrxz3DqXs8DnVIOx0.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18,
+                80,
+                53
+            ],
+            "popularity": 442.507,
+            "release_date": "2024-10-01",
+            "video": false,
+            "vote_average": 5.592,
+            "vote_count": 1630
+        },
+        {
+            "backdrop_path": "/u2eA9pqi1q3DvevT7RuDuJHxxBT.jpg",
+            "id": 974950,
+            "title": "Emilia P\u00e9rez",
+            "original_title": "Emilia P\u00e9rez",
+            "overview": "Rita, una infravalorada abogada que trabaja para un gran bufete m\u00e1s interesado en librar a los criminales de la c\u00e1rcel que en llevarlos ante la justicia, es contratada por el l\u00edder de una organizaci\u00f3n criminal.",
+            "poster_path": "/Al1cL3oPBgnmzm0EqIRcOT6JHFg.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "popularity": 184.465,
+            "release_date": "2024-08-21",
+            "video": false,
+            "vote_average": 7.827,
+            "vote_count": 318
+        },
+        {
+            "backdrop_path": "/4gQzCQqqY6fsDU3gtz45tdGztJp.jpg",
+            "id": 1154223,
+            "title": "Tigres y hienas",
+            "original_title": "Tigres et Hy\u00e8nes",
+            "overview": "Malik regresa de Espa\u00f1a y se entera de que su padrastro Serge ha sido detenido. El d\u00eda del juicio, la abogada Iris ofrece a Malik un trato: realizar un peligroso atraco a cambio de la libertad de Serge. Malik acepta y se une a los ex socios de Cherif para un \u00faltimo trabajo.",
+            "poster_path": "/80Fpd8a5BibX3kAD5lpZhCKqSyV.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 33.613,
+            "release_date": "2024-11-22",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 3
+        },
+        {
+            "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+            "id": 671,
+            "title": "Harry Potter y la piedra filosofal",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "overview": "Harry Potter es un hu\u00e9rfano que vive con sus desagradables t\u00edos, los Dursley, y su repelente primo Dudley. Se acerca su und\u00e9cimo cumplea\u00f1os y tiene pocas esperanzas de recibir alg\u00fan regalo, ya que nunca nadie se acuerda de \u00e9l. Sin embargo, pocos d\u00edas antes de su cumplea\u00f1os, una serie de misteriosas cartas dirigidas a \u00e9l y escritas con una estridente tinta verde rompen la monoton\u00eda de su vida: Harry es un mago y sus padres tambi\u00e9n lo eran.",
+            "poster_path": "/7xXJ15VEf7G9GdAuV1dO769yC73.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                12,
+                14
+            ],
+            "popularity": 213.55,
+            "release_date": "2001-11-16",
+            "video": false,
+            "vote_average": 7.9,
+            "vote_count": 27371
+        },
+        {
+            "backdrop_path": "/18TSJF1WLA4CkymvVUcKDBwUJ9F.jpg",
+            "id": 1034541,
+            "title": "Terrifier 3",
+            "original_title": "Terrifier 3",
+            "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen pl\u00e1cidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el esp\u00edritu navide\u00f1o y dejar atr\u00e1s los horrores del pasado. Pero justo cuando creen que est\u00e1n a salvo, el payaso Art regresa, decidido a convertir su alegr\u00eda navide\u00f1a en una nueva pesadilla. La temporada festiva se desmorona r\u00e1pidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+            "poster_path": "/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                27,
+                53,
+                9648
+            ],
+            "popularity": 1866.107,
+            "release_date": "2024-10-09",
+            "video": false,
+            "vote_average": 6.922,
+            "vote_count": 1058
+        },
+        {
+            "backdrop_path": "/2XGS55vbyVAGVDVfwaBdfJRxvKa.jpg",
+            "id": 1382511,
+            "title": "Cambio de beb\u00e9s 2",
+            "original_title": "Bytte Bytte Barn",
+            "overview": "Cuando se enteran de que la cl\u00ednica de fertilidad no hab\u00eda intercambiado a sus beb\u00e9s como cre\u00edan, dos parejas deciden convivir y criar a sus hijos como una gran familia.",
+            "poster_path": "/oRuW3TzBqNsHnfx8P7Jla1AJgBJ.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "da",
+            "genre_ids": [
+                35
+            ],
+            "popularity": 35.281,
+            "release_date": "2024-11-21",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 1
+        },
+        {
+            "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+            "id": 693134,
+            "title": "Dune: Parte dos",
+            "original_title": "Dune: Part Two",
+            "overview": "Sigue el viaje m\u00edtico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia. Al enfrentarse a una elecci\u00f3n entre el amor de su vida y el destino del universo conocido, Paul se esfuerza por evitar un futuro terrible que solo \u00e9l puede prever.",
+            "poster_path": "/xCHmhHeO7aOCMlzcNukGH6Q7EiD.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                878,
+                12
+            ],
+            "popularity": 224.888,
+            "release_date": "2024-02-27",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 5601
+        },
+        {
+            "backdrop_path": "/cTiSLpimOWmPJIvuBuTVb5fPisq.jpg",
+            "id": 413846,
+            "title": "1992",
+            "original_title": "1992",
+            "overview": "",
+            "poster_path": "/tPvFmQZM5HMspryyYbrtW02NR0G.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "popularity": 61.209,
+            "release_date": "2024-08-29",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 23
+        },
+        {
+            "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+            "id": 1022789,
+            "title": "Del rev\u00e9s 2 (Inside Out 2)",
+            "original_title": "Inside Out 2",
+            "overview": "Riley entra en la adolescencia y el Cuartel General de su cabeza sufre una repentina reforma para hacerle hueco a algo totalmente inesperado propio de la pubertad: \u00a1nuevas emociones! Alegr\u00eda, Tristeza, Ira, Miedo y Asco, con a\u00f1os de impecable gesti\u00f3n a sus espaldas (seg\u00fan ellos...) no saben muy bien qu\u00e9 sentir cuando aparece con enorme \u00edmpetu Ansiedad. Y no viene sola: le acompa\u00f1an envidia, verg\u00fcenza y aburrimiento. Secuela de 'Inside Out'.",
+            "poster_path": "/aQnbNiadeGzGSjWLaXyeNxpAUIx.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                16,
+                10751,
+                12,
+                35,
+                18
+            ],
+            "popularity": 709.115,
+            "release_date": "2024-06-11",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 4785
+        },
+        {
+            "backdrop_path": "/m2teNSCH7sxkuXHossRJXhxPKeT.jpg",
+            "id": 939243,
+            "title": "Sonic 3: La pel\u00edcula",
+            "original_title": "Sonic the Hedgehog 3",
+            "overview": "Sonic, Knuckles y Tails se re\u00fanen para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano cuyos poderes no se parecen a nada de lo que nuestros h\u00e9roes han conocido hasta ahora. Con sus facultades superadas en todos los sentidos, el Equipo Sonic tendr\u00e1 que establecer una ins\u00f3lita alianza con la esperanza de detener a Shadow y proteger el planeta.",
+            "poster_path": "/51im7cYEbTT10Iut0kdtg5ntTlQ.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                10751,
+                878
+            ],
+            "popularity": 238.76,
+            "release_date": "2024-12-19",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "backdrop_path": "/llIXQAndg5kB6SWlp6ouUdO7Zxd.jpg",
+            "id": 1084736,
+            "title": "El conde de Montecristo",
+            "original_title": "Le Comte de Monte-Cristo",
+            "overview": "Todos los sue\u00f1os del joven Edmundo Dant\u00e8s est\u00e1n a punto de hacerse realidad, y por fin podr\u00e1 casarse con el amor de su vida, Mercedes. Pero su \u00e9xito inspira la envidia desde varios frentes. Traicionado por sus rivales y denunciado como miembro de una conspiraci\u00f3n pro-Bonaparte, es encarcelado sin juicio en el Ch\u00e2teau d'If. Su compa\u00f1ero de prisi\u00f3n, Abb\u00e9 Faria, le habla del legendario tesoro escondido en la isla de Montecristo, y Dant\u00e9s sue\u00f1a con escapar y urdir un plan extraordinario para vengarse de sus poderosos enemigos.",
+            "poster_path": "/r2PGzaGA7bgcuy6PX7nx0BfDYsK.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "fr",
+            "genre_ids": [
+                28,
+                12,
+                18,
+                36,
+                10749,
+                53
+            ],
+            "popularity": 733.738,
+            "release_date": "2024-06-28",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 872
+        },
+        {
+            "backdrop_path": "/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+            "id": 11,
+            "title": "La guerra de las galaxias",
+            "original_title": "Star Wars",
+            "overview": "La princesa Leia, l\u00edder del movimiento rebelde que desea reinstaurar la Rep\u00fablica en la galaxia en los tiempos ominosos del Imperio, es capturada por las mal\u00e9volas Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente m\u00e1s fiel del emperador. El intr\u00e9pido Luke Skywalker, ayudado por Han Solo, capit\u00e1n de la nave espacial \"El Halc\u00f3n Milenario\", y los androides, R2D2 y C3PO, ser\u00e1n los encargados de luchar contra el enemigo y rescatar a la princesa para volver a instaurar la justicia en el seno de la Galaxia.",
+            "poster_path": "/ahT4ObS7XKedQkOSpGr1wQ97aKA.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 95.977,
+            "release_date": "1977-05-25",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 20562
+        },
+        {
+            "backdrop_path": "/tmvbyMIv56hc03Mtgusj2koFWKj.jpg",
+            "id": 1138194,
+            "title": "Heretic",
+            "original_title": "Heretic",
+            "overview": "Dos j\u00f3venes misioneras se ven obligadas a demostrar su fe cuando llaman a la puerta equivocada y son recibidas por el diab\u00f3lico Sr. Reed (Hugh Grant). Los tres se ver\u00e1n envueltos en un brutal juego del gato y el rat\u00f3n durante una larga noche de tormenta.",
+            "poster_path": "/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "popularity": 135.046,
+            "release_date": "2024-10-31",
+            "video": false,
+            "vote_average": 6.935,
+            "vote_count": 62
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+}
