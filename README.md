@@ -18,7 +18,7 @@ Este es un proyecto que combina el scraping de películas y libros, proporcionan
 
 1. Clona el repositorio:
 
-   ```bash
+   
    git remote add origin https://github.com/javier0615/tendencia.git
  
 ## Licencia
