@@ -2,11 +2,12 @@ import yaml
 import requests
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import json
-from scraper import scrape_books_from_page, save_books_to_file
+from bs4 import BeautifulSoup  # Asegúrate de que BeautifulSoup esté instalado.
+import os
 
 app = Flask(__name__)
 
-# Cargar la configuración de la API desde auth.yaml
+# --- Configuración de la API ---
 archivo_configuracion = 'config/auth.yaml'
 with open(archivo_configuracion, 'r') as archivo:
     configuracion = yaml.safe_load(archivo)
@@ -14,7 +15,40 @@ with open(archivo_configuracion, 'r') as archivo:
 clave_api = configuracion['moviedb']['api_key']
 token_acceso = configuracion['moviedb']['access_token']
 
-# Función para obtener las películas y guardar en un archivo JSON
+# --- Funciones de scraping para libros ---
+def scrape_books_from_page(page):
+    url = f"http://books.toscrape.com/catalogue/page-{page}.html"
+    response = requests.get(url)
+    if response.status_code != 200:
+        return []
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
+    books = []
+    for book_item in soup.find_all('article', class_='product_pod'):
+        title = book_item.h3.a['title']
+        image_url = "http://books.toscrape.com/" + book_item.find('img')['src']
+        price = book_item.find('p', class_='price_color').text.strip()
+        availability = book_item.find('p', class_='instock availability').text.strip()
+        
+        # Calificación (rating)
+        rating_class = book_item.find('p')['class']
+        rating = rating_class[1] if len(rating_class) > 1 else 'No rating'
+        
+        books.append({
+            'title': title,
+            'image_url': image_url,
+            'price': price,
+            'availability': availability,
+            'rating': rating
+        })
+
+    return books
+
+def save_books_to_file(books):
+    with open('libros.json', 'w') as file:
+        json.dump(books, file, indent=4)
+
+# --- Funciones para obtener películas ---
 def obtener_peliculas_tendencia(pagina):
     url = f'https://api.themoviedb.org/3/trending/movie/week?api_key={clave_api}&language=es-CO&page={pagina}'
     headers = {
@@ -32,7 +66,7 @@ def obtener_peliculas_tendencia(pagina):
     else:
         return None
 
-# Ruta principal con formulario para elegir entre libros o películas
+# --- Rutas de la aplicación ---
 @app.route('/', methods=['GET', 'POST'])
 def inicio():
     if request.method == 'POST':
@@ -45,7 +79,6 @@ def inicio():
             return redirect(url_for('scrape', page=pagina))
     return render_template('inicio.html')
 
-# Ruta para obtener películas
 @app.route('/peliculas/<pagina>', methods=['GET'])
 def obtener_peliculas(pagina):
     datos_peliculas = obtener_peliculas_tendencia(pagina)
@@ -53,7 +86,6 @@ def obtener_peliculas(pagina):
         return redirect(url_for('mostrar_peliculas'))
     return "Error al obtener películas."
 
-# Ruta para mostrar películas
 @app.route('/peliculas')
 def mostrar_peliculas():
     try:
@@ -63,18 +95,16 @@ def mostrar_peliculas():
     except FileNotFoundError:
         return "No se encontraron datos de películas."
 
-# Ruta para scrapear libros
 @app.route('/scrape/<int:page>', methods=['GET'])
 def scrape(page):
     books = scrape_books_from_page(page)
     save_books_to_file(books)
     return render_template('libros.html', books=books, page=page)
 
-# Ruta para mostrar libros
 @app.route('/libros')
 def mostrar_libros():
     try:
-        with open('libros.txt', 'r') as file:
+        with open('libros.json', 'r') as file:
             books = json.load(file)
     except FileNotFoundError:
         books = []
